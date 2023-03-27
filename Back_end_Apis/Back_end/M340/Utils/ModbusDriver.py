@@ -15,6 +15,7 @@ class driver:
       else:
             cliente.close()
             print("server não encontrado")
+            return "erro"
       
         
 
